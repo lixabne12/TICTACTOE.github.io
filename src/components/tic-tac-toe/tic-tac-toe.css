@@ -1,0 +1,66 @@
+/* Styling for the tic-tac-toe game */
+.game {
+    /* Styling for the game container */
+    
+    .board {
+      /* Styling for the game board */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .board_row {
+      /* Styling for each row in the game board */
+      display: flex;
+    }
+  
+    .cell {
+      /* Styling for each cell/button in the game board */
+      width: 100px;
+      height: 100px;
+      border-radius: 0;
+      border: none;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 50px;
+      font-weight: 700;
+      background-color: whitesmoke;
+      outline: none;
+      margin-bottom: 15px;
+    }
+  
+    .cell:hover {
+      /* Styling for cell/button hover state */
+      color: inherit;
+    }
+  
+    .cell_x {
+      /* Styling for cell/button when X is clicked */
+      background: whitesmoke;
+      color: green;
+    }
+    .cell_o {
+      /* Styling for cell/button when O is clicked */
+      color: blue;
+    }
+  }
+  
+  /* Styling for the result message */
+  p {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  
+  /* Styling for the reset button */
+  .reset {
+    margin-top: 20px;
+    min-width: 200px;
+    border-radius: 2px;
+    border: none;
+  }
+  
+  

@@ -1,0 +1,44 @@
+/* Styling for the main App component */
+.App {
+  text-align: center;
+}
+
+/* Styling for the main content area */
+main {
+  padding: 50px;
+}
+
+/* Responsive styling for the main content area on smaller screens */
+@media screen and (max-width: 550px) {
+  main {
+    padding: 20px;
+  }
+}
+
+/* Styling for input elements */
+input {
+  height: 40px;
+  box-shadow: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Styling for buttons */
+button {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 44px;
+  background: whitesmoke;
+  border-radius: 7px;
+}
+
+/* Styling for button hover state */
+button:hover {
+  color: #dcfff3;
+  background: #333;
+}
